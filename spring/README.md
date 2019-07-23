@@ -7,6 +7,7 @@ See the [spring documentation](https://spring.io/guides/gs/rest-service/)
 wrk -t12 -c400 -d30s http://localhost:8080/greeting
 ```
 # Benchmark results
+```
 Running 30s test @ http://localhost:8080/greeting
   12 threads and 400 connections
    Thread Stats   Avg      Stdev     Max   +/- Stdev
@@ -16,3 +17,4 @@ Running 30s test @ http://localhost:8080/greeting
   Socket errors: connect 157, read 110, write 0, timeout 0
 Requests/sec:  28116.80
 Transfer/sec:      4.78MB
+```
